@@ -1,0 +1,23 @@
+{
+    "name": "hengkydev/rajaongkir",
+    "description": "Raja Ongkir API handle",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hengky irianto",
+            "email": "hengky.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.8",
+        "php-curl-class/php-curl-class": "*",
+        "vlucas/phpdotenv": "^2.5@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hengkydev": "src/"
+        }
+    }
+}
